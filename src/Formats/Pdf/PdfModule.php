@@ -1,12 +1,12 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Pdf;
+namespace BergPlaza\Ebook\Formats\Pdf;
 
-use Kiwilan\Archive\Models\PdfMeta;
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
-use Kiwilan\Ebook\Formats\EbookModule;
-use Kiwilan\Ebook\Tools\BookAuthor;
+use BergPlaza\Archive\Models\PdfMeta;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
+use BergPlaza\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Tools\BookAuthor;
 
 class PdfModule extends EbookModule
 {

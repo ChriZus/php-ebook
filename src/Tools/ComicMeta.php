@@ -1,9 +1,9 @@
 <?php
 
-namespace Kiwilan\Ebook\Tools;
+namespace BergPlaza\Ebook\Tools;
 
-use Kiwilan\Ebook\Enums\AgeRatingEnum;
-use Kiwilan\Ebook\Enums\MangaEnum;
+use BergPlaza\Ebook\Enums\AgeRatingEnum;
+use BergPlaza\Ebook\Enums\MangaEnum;
 
 class ComicMeta
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Fb2\Parser;
+namespace BergPlaza\Ebook\Formats\Fb2\Parser;
 
-use Kiwilan\XmlReader\XmlReader;
+use BergPlaza\XmlReader\XmlReader;
 
 class Fb2Parser
 {

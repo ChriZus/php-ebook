@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiwilan\Ebook\Utils;
+namespace BergPlaza\Ebook\Utils;
 
 class Stream
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Epub;
+namespace BergPlaza\Ebook\Formats\Epub;
 
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
-use Kiwilan\Ebook\Formats\EbookModule;
-use Kiwilan\Ebook\Formats\Epub\Parser\EpubChapter;
-use Kiwilan\Ebook\Formats\Epub\Parser\EpubContainer;
-use Kiwilan\Ebook\Formats\Epub\Parser\EpubHtml;
-use Kiwilan\Ebook\Formats\Epub\Parser\NcxItem;
-use Kiwilan\Ebook\Formats\Epub\Parser\OpfItem;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
+use BergPlaza\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Formats\Epub\Parser\EpubChapter;
+use BergPlaza\Ebook\Formats\Epub\Parser\EpubContainer;
+use BergPlaza\Ebook\Formats\Epub\Parser\EpubHtml;
+use BergPlaza\Ebook\Formats\Epub\Parser\NcxItem;
+use BergPlaza\Ebook\Formats\Epub\Parser\OpfItem;
 
 class EpubModule extends EbookModule
 {

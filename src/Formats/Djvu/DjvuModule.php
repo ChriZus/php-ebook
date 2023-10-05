@@ -1,10 +1,10 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Djvu;
+namespace BergPlaza\Ebook\Formats\Djvu;
 
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
-use Kiwilan\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
+use BergPlaza\Ebook\Formats\EbookModule;
 
 class DjvuModule extends EbookModule
 {

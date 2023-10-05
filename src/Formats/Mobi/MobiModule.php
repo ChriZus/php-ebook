@@ -1,15 +1,15 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Mobi;
+namespace BergPlaza\Ebook\Formats\Mobi;
 
 use DateTime;
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
-use Kiwilan\Ebook\Formats\EbookModule;
-use Kiwilan\Ebook\Formats\Mobi\Parser\MobiParser;
-use Kiwilan\Ebook\Formats\Mobi\Parser\MobiReader;
-use Kiwilan\Ebook\Tools\BookAuthor;
-use Kiwilan\Ebook\Tools\BookIdentifier;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
+use BergPlaza\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Formats\Mobi\Parser\MobiParser;
+use BergPlaza\Ebook\Formats\Mobi\Parser\MobiReader;
+use BergPlaza\Ebook\Tools\BookAuthor;
+use BergPlaza\Ebook\Tools\BookIdentifier;
 
 /**
  * @docs https://stackoverflow.com/questions/11817047/php-library-to-parse-mobi

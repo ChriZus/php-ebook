@@ -1,11 +1,11 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Cba\Parser;
+namespace BergPlaza\Ebook\Formats\Cba\Parser;
 
 use DateTime;
-use Kiwilan\Ebook\Enums\AgeRatingEnum;
-use Kiwilan\Ebook\Enums\MangaEnum;
-use Kiwilan\XmlReader\XmlReader;
+use BergPlaza\Ebook\Enums\AgeRatingEnum;
+use BergPlaza\Ebook\Enums\MangaEnum;
+use BergPlaza\XmlReader\XmlReader;
 
 /**
  * @docs https://anansi-project.github.io/docs/comicinfo/schemas/v2.0

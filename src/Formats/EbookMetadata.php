@@ -1,13 +1,13 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats;
+namespace BergPlaza\Ebook\Formats;
 
-use Kiwilan\Ebook\Formats\Audio\AudiobookModule;
-use Kiwilan\Ebook\Formats\Cba\CbaModule;
-use Kiwilan\Ebook\Formats\Epub\EpubModule;
-use Kiwilan\Ebook\Formats\Fb2\Fb2Module;
-use Kiwilan\Ebook\Formats\Mobi\MobiModule;
-use Kiwilan\Ebook\Formats\Pdf\PdfModule;
+use BergPlaza\Ebook\Formats\Audio\AudiobookModule;
+use BergPlaza\Ebook\Formats\Cba\CbaModule;
+use BergPlaza\Ebook\Formats\Epub\EpubModule;
+use BergPlaza\Ebook\Formats\Fb2\Fb2Module;
+use BergPlaza\Ebook\Formats\Mobi\MobiModule;
+use BergPlaza\Ebook\Formats\Pdf\PdfModule;
 
 class EbookMetadata
 {

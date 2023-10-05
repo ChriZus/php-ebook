@@ -1,13 +1,13 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Fb2;
+namespace BergPlaza\Ebook\Formats\Fb2;
 
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
-use Kiwilan\Ebook\Formats\EbookModule;
-use Kiwilan\Ebook\Formats\Fb2\Parser\Fb2Parser;
-use Kiwilan\Ebook\Tools\BookAuthor;
-use Kiwilan\Ebook\Tools\BookIdentifier;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
+use BergPlaza\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Formats\Fb2\Parser\Fb2Parser;
+use BergPlaza\Ebook\Tools\BookAuthor;
+use BergPlaza\Ebook\Tools\BookIdentifier;
 
 class Fb2Module extends EbookModule
 {

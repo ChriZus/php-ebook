@@ -1,8 +1,8 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Epub\Parser;
+namespace BergPlaza\Ebook\Formats\Epub\Parser;
 
-use Kiwilan\XmlReader\XmlReader;
+use BergPlaza\XmlReader\XmlReader;
 
 /**
  * Transform `container.xml` file to an object.

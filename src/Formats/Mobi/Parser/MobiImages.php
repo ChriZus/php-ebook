@@ -1,8 +1,8 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Mobi\Parser;
+namespace BergPlaza\Ebook\Formats\Mobi\Parser;
 
-use Kiwilan\Ebook\Utils\Stream;
+use BergPlaza\Ebook\Utils\Stream;
 
 class MobiImages
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiwilan\Ebook\Enums;
+namespace BergPlaza\Ebook\Enums;
 
 /**
  * For ComicRack's ComicInfo.xml

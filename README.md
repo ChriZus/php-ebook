@@ -1,6 +1,6 @@
 # PHP eBook
 
-> **READ THIS FIRST**
+> **Warning**
 >
 > This package is forked from [kiwilan/php-ebook](https://github.com/kiwilan/php-ebook) and adapted for my personal preference and use. I do **not** recommend using this package in your project, but use the 
 > original project [kiwilan/php-ebook](https://github.com/kiwilan/php-ebook)

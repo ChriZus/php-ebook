@@ -1,15 +1,15 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Cba;
+namespace BergPlaza\Ebook\Formats\Cba;
 
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
-use Kiwilan\Ebook\Formats\Cba\Parser\CbamTemplate;
-use Kiwilan\Ebook\Formats\Cba\Parser\CbaTemplate;
-use Kiwilan\Ebook\Formats\EbookModule;
-use Kiwilan\Ebook\Tools\BookAuthor;
-use Kiwilan\Ebook\Tools\ComicMeta;
-use Kiwilan\XmlReader\XmlReader;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
+use BergPlaza\Ebook\Formats\Cba\Parser\CbamTemplate;
+use BergPlaza\Ebook\Formats\Cba\Parser\CbaTemplate;
+use BergPlaza\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Tools\BookAuthor;
+use BergPlaza\Ebook\Tools\ComicMeta;
+use BergPlaza\XmlReader\XmlReader;
 
 class CbaModule extends EbookModule
 {

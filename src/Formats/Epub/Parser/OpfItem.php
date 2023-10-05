@@ -1,14 +1,14 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Epub\Parser;
+namespace BergPlaza\Ebook\Formats\Epub\Parser;
 
 use DateTime;
 use DateTimeZone;
-use Kiwilan\Ebook\Tools\BookAuthor;
-use Kiwilan\Ebook\Tools\BookContributor;
-use Kiwilan\Ebook\Tools\BookIdentifier;
-use Kiwilan\Ebook\Tools\BookMeta;
-use Kiwilan\XmlReader\XmlReader;
+use BergPlaza\Ebook\Tools\BookAuthor;
+use BergPlaza\Ebook\Tools\BookContributor;
+use BergPlaza\Ebook\Tools\BookIdentifier;
+use BergPlaza\Ebook\Tools\BookMeta;
+use BergPlaza\XmlReader\XmlReader;
 
 /**
  * Transform `.opf` file to an object.

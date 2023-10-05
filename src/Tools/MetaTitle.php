@@ -1,8 +1,8 @@
 <?php
 
-namespace Kiwilan\Ebook\Tools;
+namespace BergPlaza\Ebook\Tools;
 
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 use Transliterator;
 
 class MetaTitle

@@ -1,12 +1,12 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Audio;
+namespace BergPlaza\Ebook\Formats\Audio;
 
 use DateTime;
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
-use Kiwilan\Ebook\Formats\EbookModule;
-use Kiwilan\Ebook\Tools\BookAuthor;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
+use BergPlaza\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Tools\BookAuthor;
 
 class AudiobookModule extends EbookModule
 {

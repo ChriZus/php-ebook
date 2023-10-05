@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Djvu\Parser;
+namespace BergPlaza\Ebook\Formats\Djvu\Parser;
 
 class DjvuParser
 {

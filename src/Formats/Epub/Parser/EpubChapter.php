@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Epub\Parser;
+namespace BergPlaza\Ebook\Formats\Epub\Parser;
 
 /**
  * Merge `.ncx` and `.html` files to create chapters.

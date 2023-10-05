@@ -1,8 +1,8 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Cba\Parser;
+namespace BergPlaza\Ebook\Formats\Cba\Parser;
 
-use Kiwilan\XmlReader\XmlReader;
+use BergPlaza\XmlReader\XmlReader;
 
 abstract class CbaTemplate
 {

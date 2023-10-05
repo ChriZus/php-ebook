@@ -1,5 +1,13 @@
 # PHP eBook
 
+> **READ THIS FIRST**
+>
+> This package waas forked from [kiwilan/php-ebook](https://github.com/kiwilan/php-ebook) and adapted for my personal preference and use. I do **not** recommend using this package in your project, but use the 
+> original project [kiwilan/php-ebook](https://github.com/kiwilan/php-ebook)
+> 
+
+
+
 ![Banner with eReader picture in background and PHP eBook title](https://raw.githubusercontent.com/kiwilan/php-ebook/main/docs/banner.jpg)
 
 [![php][php-version-src]][php-version-href]
@@ -25,9 +33,6 @@ To know more see [Supported formats](#supported-formats). _Supports Linux, macOS
 >
 > For DRM (Digital Rights Management) eBooks, in some cases you could read metadata but not contents (like HTML files for EPUB). To use all features, you have to use a software to remove DRM before using this package. For EPUB, you can use [calibre](https://calibre-ebook.com/) with [DeDRM plugin](https://github.com/noDRM/DeDRM_tools), [this guide](https://www.epubor.com/calibre-drm-removal-plugins.html) can help you.
 
-## About
-
-This package was built for [`bookshelves-project/bookshelves`](https://github.com/bookshelves-project/bookshelves), a web app to handle eBooks.
 
 ## Requirements
 
@@ -76,12 +81,12 @@ This package was built for [`bookshelves-project/bookshelves`](https://github.co
 -   [ ] Add suport for DJVU: [`djvulibre`](https://djvu.sourceforge.net/)
 -   [ ] Support FB2 archive
 
-## Installation
+## Installation 
 
 You can install the package via composer:
 
 ```bash
-composer require kiwilan/php-ebook
+composer require chrizus/php-ebook
 ```
 
 ## Usage
@@ -89,7 +94,7 @@ composer require kiwilan/php-ebook
 With eBook files or audiobook files (to know more about formats, see [Supported formats](#supported-formats)).
 
 ```php
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 
 $ebook = Ebook::read('path/to/ebook.epub');
 
@@ -132,7 +137,7 @@ $ebook->getExtra(string $key); // mixed => safely extract data from `extras` arr
 To know if eBook is valid, you can use `isValid()` static method, before `read()`.
 
 ```php
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 
 $isValid = Ebook::isValid('path/to/ebook.epub');
 ```
@@ -168,7 +173,7 @@ $ebook->isBadFile(); // bool => `true` if file is not readable
 `Ebook::class` contains many informations but if you want to access to raw metadata, `metadata()` method is available.
 
 ```php
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 
 $ebook = Ebook::read('path/to/ebook.epub');
 
@@ -196,7 +201,7 @@ $metadata->isPdf(); // bool
 Can be set if book's title is not null.
 
 ```php
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 
 $ebook = Ebook::read('path/to/ebook.epub');
 $metaTitle = $ebook->getMetaTitle(); // ?MetaTitle
@@ -218,7 +223,7 @@ $metaTitle->getUniqueFilename(); // string => unique filename for storage, like 
 Cover can be extracted from ebook.
 
 ```php
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 
 $ebook = Ebook::read('path/to/ebook.epub');
 $cover = $ebook->getCover(); // ?EbookCover
@@ -239,7 +244,7 @@ $cover->getContents(bool $toBase64 = false); // ?string => content of cover, if 
 With `EPUB`, metadata are extracted from `OPF` file, `META-INF/container.xml` files, you could access to these metatada but you can also get chapters from `NCX` file. And with `chapters()` method you can merge `NCX` and `HTML` chapters to get full book chapters with `label`, `source` and `content`.
 
 ```php
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 
 $ebook = Ebook::read('path/to/ebook.epub');
 
@@ -266,7 +271,7 @@ You can create an EPUB or CBZ file with `create()` static method.
 > Only `EPUB` and `CBZ` are supported for creation.
 
 ```php
-use Kiwilan\Ebook\Ebook;
+use BergPlaza\Ebook\Ebook;
 
 $creator = Ebook::create('path/to/ebook.epub');
 
@@ -328,7 +333,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Credits
 
 -   [`spatie`](https://github.com/spatie) for `spatie/package-skeleton-php`
--   [`kiwilan`](https://github.com/kiwilan) for `kiwilan/php-archive`, `kiwilan/php-audio`, `kiwilan/php-xml-reader`
+-   [`kiwilan`](https://github.com/kiwilan) for `kiwilan/php-archive`, `kiwilan/php-audio`, `kiwilan/php-xml-reader`, `kiwilan/php-ebook`
 -   [All Contributors](../../contributors)
 
 ## License
@@ -338,14 +343,9 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [<img src="https://user-images.githubusercontent.com/48261459/201463225-0a5a084e-df15-4b11-b1d2-40fafd3555cf.svg" height="120rem" width="100%" />](https://github.com/kiwilan)
 
 [version-src]: https://img.shields.io/packagist/v/kiwilan/php-ebook.svg?style=flat-square&colorA=18181B&colorB=777BB4
-[version-href]: https://packagist.org/packages/kiwilan/php-ebook
+[version-href]: https://packagist.org/packages/chrizus/php-ebook
 [php-version-src]: https://img.shields.io/static/v1?style=flat-square&label=PHP&message=v8.1&color=777BB4&logo=php&logoColor=ffffff&labelColor=18181b
 [php-version-href]: https://www.php.net/
-[downloads-src]: https://img.shields.io/packagist/dt/kiwilan/php-ebook.svg?style=flat-square&colorA=18181B&colorB=777BB4
-[downloads-href]: https://packagist.org/packages/kiwilan/php-ebook
-[license-src]: https://img.shields.io/github/license/kiwilan/php-ebook.svg?style=flat-square&colorA=18181B&colorB=777BB4
-[license-href]: https://github.com/kiwilan/php-ebook/blob/main/README.md
-[tests-src]: https://img.shields.io/github/actions/workflow/status/kiwilan/php-ebook/run-tests.yml?branch=main&label=tests&style=flat-square&colorA=18181B
-[tests-href]: https://packagist.org/packages/kiwilan/php-ebook
-[codecov-src]: https://codecov.io/gh/kiwilan/php-ebook/branch/main/graph/badge.svg?token=P9XIK2KV9G
-[codecov-href]: https://codecov.io/gh/kiwilan/php-ebook
+[downloads-href]: https://packagist.org/packages/chrizus/php-ebook
+[license-href]: https://github.com/chrizus/php-ebook/blob/main/README.md
+[tests-href]: https://packagist.org/packages/chrizus/php-ebook

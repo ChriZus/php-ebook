@@ -1,9 +1,9 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats;
+namespace BergPlaza\Ebook\Formats;
 
-use Kiwilan\Ebook\Ebook;
-use Kiwilan\Ebook\EbookCover;
+use BergPlaza\Ebook\Ebook;
+use BergPlaza\Ebook\EbookCover;
 
 abstract class EbookModule
 {

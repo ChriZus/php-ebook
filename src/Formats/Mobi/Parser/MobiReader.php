@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiwilan\Ebook\Formats\Mobi\Parser;
+namespace BergPlaza\Ebook\Formats\Mobi\Parser;
 
 /**
  * @docs https://wiki.mobileread.com/wiki/Mobi

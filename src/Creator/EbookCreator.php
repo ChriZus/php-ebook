@@ -1,9 +1,9 @@
 <?php
 
-namespace Kiwilan\Ebook\Creator;
+namespace BergPlaza\Ebook\Creator;
 
-use Kiwilan\Archive\Archive;
-use Kiwilan\Archive\ArchiveZipCreate;
+use BergPlaza\Archive\Archive;
+use BergPlaza\Archive\ArchiveZipCreate;
 
 class EbookCreator
 {

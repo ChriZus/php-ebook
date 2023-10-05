@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiwilan\Ebook;
+namespace BergPlaza\Ebook;
 
 class EbookCover
 {

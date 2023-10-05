@@ -1,26 +1,26 @@
 <?php
 
-namespace Kiwilan\Ebook;
+namespace BergPlaza\Ebook;
 
 use DateTime;
-use Kiwilan\Archive\Archive;
-use Kiwilan\Archive\ArchiveZipCreate;
-use Kiwilan\Archive\Readers\BaseArchive;
-use Kiwilan\Audio\Audio;
-use Kiwilan\Ebook\Creator\EbookCreator;
-use Kiwilan\Ebook\Enums\EbookFormatEnum;
-use Kiwilan\Ebook\Formats\Audio\AudiobookModule;
-use Kiwilan\Ebook\Formats\Cba\CbaModule;
-use Kiwilan\Ebook\Formats\Djvu\DjvuModule;
-use Kiwilan\Ebook\Formats\EbookMetadata;
-use Kiwilan\Ebook\Formats\EbookModule;
-use Kiwilan\Ebook\Formats\Epub\EpubModule;
-use Kiwilan\Ebook\Formats\Fb2\Fb2Module;
-use Kiwilan\Ebook\Formats\Mobi\MobiModule;
-use Kiwilan\Ebook\Formats\Pdf\PdfModule;
-use Kiwilan\Ebook\Tools\BookAuthor;
-use Kiwilan\Ebook\Tools\BookIdentifier;
-use Kiwilan\Ebook\Tools\MetaTitle;
+use BergPlaza\Archive\Archive;
+use BergPlaza\Archive\ArchiveZipCreate;
+use BergPlaza\Archive\Readers\BaseArchive;
+use BergPlaza\Audio\Audio;
+use BergPlaza\Ebook\Creator\EbookCreator;
+use BergPlaza\Ebook\Enums\EbookFormatEnum;
+use BergPlaza\Ebook\Formats\Audio\AudiobookModule;
+use BergPlaza\Ebook\Formats\Cba\CbaModule;
+use BergPlaza\Ebook\Formats\Djvu\DjvuModule;
+use BergPlaza\Ebook\Formats\EbookMetadata;
+use BergPlaza\Ebook\Formats\EbookModule;
+use BergPlaza\Ebook\Formats\Epub\EpubModule;
+use BergPlaza\Ebook\Formats\Fb2\Fb2Module;
+use BergPlaza\Ebook\Formats\Mobi\MobiModule;
+use BergPlaza\Ebook\Formats\Pdf\PdfModule;
+use BergPlaza\Ebook\Tools\BookAuthor;
+use BergPlaza\Ebook\Tools\BookIdentifier;
+use BergPlaza\Ebook\Tools\MetaTitle;
 
 class Ebook
 {
